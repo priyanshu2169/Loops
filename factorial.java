@@ -11,8 +11,13 @@ public class factorial {
             fact=fact*n;
             n--;
             }
+            
         }
+        if(n<0){
+            System.out.println("negative number does not have factorial");
+        }else{
         System.out.println(fact);
+        }
         sc.close();
     }
 }
